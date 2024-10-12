@@ -1,0 +1,454 @@
+
+
+/* Global Styles */
+body,html {
+    font-family: Arial, sans-serif;
+    font-size:large;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+/* Gradient Effect */
+  .logo {
+    background: linear-gradient(to bottom, #333, #666);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+/*Word Spacing*/
+    .logo {
+        word-spacing: 10px;
+        }
+
+       /*Text Align*/
+    .logo {
+       text-align: left;
+       font-size: 35px;
+       font-style: italic, bold;
+       font-family: 'Times New Roman';
+      text-decoration: solid;
+       }
+       
+       /*Text Color*/
+       .logo {
+       color: #333;
+       }
+       
+        /* Text Transform*/
+        .logo {
+        text-transform: lowercase;
+        }
+        
+        /* Text Shadow */
+    .logo {
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+        }
+        
+        /*Responsive Design*/
+        @media (max-width: 768px) {
+            .logo {
+            font-size: 24px;
+            }
+            }
+   
+    /* Navbar Styles */
+    .navbar {
+    background-color: #50a5b1;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+    }
+    
+    
+    .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    
+  
+    
+     /* Featured Movies Section Styles */
+    .featured-movies {
+    background-image: url('action-movie-5120-x-2880-wallpaper-rfjaete2qgen05tn.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    }
+    
+    .featured-movies {
+        padding: 2em;
+        }
+        
+        
+        .featured-movies ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+        
+        
+        .featured-movies li {
+        margin: 20px;
+        width: calc(33.33% - 20px);
+        }
+          
+          .featured-movies img {
+            width: 235px; 
+            height: 220px; 
+            object-fit: cover; 
+            border-radius: 10px; 
+            margin: 10px;
+            transition: transform 0.2s ease;
+          }
+          
+          .featured-movies img:hover {
+            transform: scale(1.1);
+          }
+        
+        .featured-movies h3 {
+        font-size: 18px;
+        margin-top: 10px;
+        }
+        
+        
+        .featured-movies p {
+        font-size: 14px;
+        color: #50a5b1;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+
+      /* Hero Section Styles */
+      .hero h1 {
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        
+        
+        .hero p {
+        font-size: 24px;
+        margin-bottom: 40px;
+        padding-top: 39px;
+        padding-left: 20px;
+        }
+        
+        
+       
+      
+
+        
+        .get-started:hover {
+        background-color: #555;
+        }
+
+        .hero {
+            background-image: url('678085.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            color: #fff;
+            text-align: left;
+            padding-left: 100px;
+            }
+            
+            
+            .get-started {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 20px;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+            text-decoration: none;
+            }
+
+            /*Responsive Design*/
+
+
+@media (max-width: 768px) {
+.hero {
+padding-left: 20px;
+}
+.get-started {
+font-size: 16px;
+padding: 10px 20px;
+}
+}
+
+            
+    
+    /* Latest Releases Section Styles */
+    .latest-releases {
+        background-image: url('x-men-movie-the-last-stand-character-qarw37a1ebc4bs2t.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        }
+    
+    .latest-releases {
+    padding: 10em;
+    }
+    
+    
+    .latest-releases ul {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    
+    .latest-releases li {
+    margin: 20px;
+    width: calc(33.33% - 20px);
+    }
+    
+    
+   .latest-releases img {
+  width: 235px; 
+  height: 220px; 
+  object-fit: cover; 
+  border-radius: 15px; 
+  margin: 10px;
+  transition: transform 0.2s ease;
+}
+
+.latest-releases img:hover {
+  transform: scale(1.1);
+}
+    
+    .latest-releases h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    }
+    
+    
+    .latest-releases p {
+    font-size: 14px;
+    color: #50a5b1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+     
+    /* Footer Styles */
+    
+    
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+    }
+    
+
+
+
+    /*html style for Movie page.html */
+    .movies {
+      padding: 2px;
+      background-color: #f0f0f0;
+      }
+      
+      
+      .movie-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      }
+      
+      
+      .movie {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease;
+      }
+      
+      
+      .movie:hover {
+      transform: scale(1.05);
+      }
+      
+      
+      .movie img {
+      width: 70%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
+      }
+      
+      
+      .movie h3 {
+      font-size: 18px;
+      margin-top: 10px;
+      }
+      
+      
+      .movie p {
+      font-size: 14px;
+      color: #666;
+      }
+      
+      
+      .watch-trailer {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.2s ease;
+      }
+      
+      
+      .watch-trailer:hover {
+      background-color: #555;
+      }
+      
+      
+     /* Responsive Design*/
+      
+      
+      @media (max-width: 768px) {
+      .movie-grid {
+      grid-template-columns: repeat(2, 1fr);
+      }
+      }
+      
+      
+      @media (max-width: 480px) {
+      .movie-grid {
+      grid-template-columns: repeat(1, 1fr);
+      }
+      }
+      
+
+      /* loading*/
+      .loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        }
+        
+        
+        .loading-animation {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 5px solid #333;
+        border-top-color: transparent;
+        animation: spin 1s linear infinite;
+        }
+        
+        
+        @keyframes spin {
+        0% {
+        transform: rotate(0deg);
+        }
+        100% {
+        transform: rotate(360deg);
+        }
+        }
+        
+        /*TVShow movie style*/
+        .tv-shows {
+          padding: 2em;
+      }
+      
+      .tv-show-grid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 20px;
+      }
+      
+      .tv-show {
+          background-color: #fff;
+          padding: 1em;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .tv-show img {
+          width: 100%;
+          height: 150px;
+          object-fit: cover;
+          border-radius: 10px 10px 0 0;
+      }
+      
+      .tv-show h3 {
+          font-weight: bold;
+          margin-top: 10px;
+      }
+      
+      .watch-trailer {
+          background-color: #333;
+          color: #fff;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+      }
+
+
+      /* Responsive design */
+
+@media (max-width: 768px) {
+  .tv-show-grid {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .tv-show-grid {
+      grid-template-columns: 1fr;
+  }
+  .tv-show {
+      margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar ul {
+      flex-direction: column;
+  }
+  .navbar li {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+}
